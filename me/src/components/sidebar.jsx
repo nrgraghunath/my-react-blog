@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Loader from 'react-loader-spinner'
 export default class Sidebar extends Component {
   render() {
     return (
@@ -11,7 +11,9 @@ export default class Sidebar extends Component {
               <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html">Nair Raghunath Gopinath</a></h1>
               <span className="email"><i className="icon-mail"></i> raghunathgnair05@gmail.com</span>
-              <span className="phone"><i className="icon-phone"></i> +9(177) 364-00251</span>
+              <span className="phone"><i className="icon-phone"></i> +9(177) 364-00251</span><br/>
+              <span className="location"><i className="icon-location"></i>Greater Bengaluru Area, India</span>
+              <Loader type="Ball-Triangle" color="#00BFFF" height={50} width={50} />
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">

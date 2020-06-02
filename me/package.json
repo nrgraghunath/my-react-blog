@@ -4,9 +4,12 @@
   "private": true,
   "homepage": "https://nrgraghunath.github.io/my-react-blog",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "gh-pages": "^2.2.0",
     "react": "^16.8.3",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.8.3",
+    "react-loader-spinner": "^3.1.14",
     "react-scripts": "2.1.5",
     "travis": "^0.1.1",
     "yarn": "^1.13.0"
